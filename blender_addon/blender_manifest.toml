@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+
+id = "mesh_classifier"
+version = "0.1.0"
+name = "Mesh Classifier"
+tagline = "Classify and rename meshes using local AI"
+maintainer = "Mesh Classifier contributors"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["Modeling"]
+platforms = ["windows-x64"]
+
+[permissions]
+network = "Download model files and call the local classifier service"
+files = "Read rendered images and write cached model/runtime files"
